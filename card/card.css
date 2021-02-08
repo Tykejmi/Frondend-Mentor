@@ -1,0 +1,117 @@
+/* HI GUYS, I'LL BE GLAD FOR ANY REVIEW, THANKS ALOT */
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+html, body{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Kumbh Sans',sans-serif;
+    color: hsl(229, 23%, 23%);
+    overflow: hidden;
+}
+
+.container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background:hsl(185, 75%, 39%);
+}
+
+.card{
+    height: 35rem;
+    width: 32rem;
+    background: white;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.card-top{
+    overflow: hidden;
+    height: 50rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    
+}
+
+.card-img{
+    align-self: center;
+    position: relative;
+    top: -5rem;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+#profile-img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    position: relative;
+    top:-3rem;
+    
+}
+
+.card-text span {
+    padding: 0.5rem;
+}
+#card-text-number{
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+#card-text-london{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: hsl(227, 10%, 46%);
+}
+
+.card-footer{
+display:flex;
+justify-content: space-evenly;
+padding: 1.5rem;
+border-top: hsl(227, 10%, 46%) 0.2px solid;
+}
+
+.card-footer-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.footer-text-number{
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.footer-text-text{
+    font-weight: 400;
+    font-size: 1rem;
+    color: hsl(227, 10%, 46%) 0.2px solid;;
+}
+
+#top-bg{
+    position: absolute;
+    left: -28rem;
+    top: -56rem;
+}
+
+#bottom-bg{
+    position: absolute;
+    right: -28rem;
+    bottom: -65rem;
+}
